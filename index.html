@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Angular</h1>
+				</section>
+				<section>
+					<section>
+						<h2>What is Angular?</h2>
+					</section>
+					<section>
+						<p>Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop.</p>
+					</section>
+					<section>
+						<h3>Single Page Applications</h3>
+					</section>
+					<section>
+						<img src="./css/theme/source/img/traditionsl-website.png" alt="Traditional Website">
+					</section>
+					<section>
+						<img src="./css/theme/source/img/spa.png" alt="Single Page Application">
+					</section>
+					<section>
+						<h3>The Framework</h3>
+					</section>
+					<section>
+						<ul>
+							<li>data-binding</li>
+							<li>change-detection</li>
+							<li>forms</li>
+							<li>routing & navigation</li>
+							<li>HTTP-implementation</li>
+						</ul>
+					</section>
+					<section>
+						<h3>The Platform</h3>
+					</section>
+					<section>
+						<ul>
+							<li>Angular-CLI</li>
+							<li>Angular Universal</li>
+							<li>Angular Material</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>The Angular-CLI & our first App</h2>
+					</section>
+					<section>
+						<h3>Generating a Project with the Angular-CLI</h3>
+					</section>
+					<section>
+						<img src="./css/theme/source/img/install_angular.png" alt="Install Angular CLI">
+					</section>
+					<section>
+						<img src="./css/theme/source/img/new_angular_project.png" alt="New Angular Project">
+					</section>
+					<section>
+						<h3>Generating Angular’s Building-Blocks</h3>
+					</section>
+					<section>
+						<ul>
+							<li>Component</li>
+							<li>Directive</li>
+							<li>Pipe</li>
+							<li>Service</li>
+							<li>Class</li>
+							<li>Guard</li>
+							<li>Interface</li>
+							<li>Enum</li>
+							<li>Module</li>
+						</ul>
+					</section>
+					<section>
+						<img src="./css/theme/source/img/new_angular_module.png" alt="New Angular Module">
+					</section>
+					<section>
+						<img src="./css/theme/source/img/new_angular_component.png" alt="New Angular Component">
+					</section>
+					<section>
+						<h3>Running your Angular Application with the CLI</h3>
+					</section>
+					<section>
+						<img src="./css/theme/source/img/ng_serve.png" alt="Running Angular App">
+					</section>
+					<section>
+						<img src="./css/theme/source/img/ng_serve--prod.png" alt="Running Angular App">
+					</section>
+					<section>
+						<img src="./css/theme/source/img/ng_build--prod.png" alt="Build Angular App">
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
